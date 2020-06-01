@@ -7,12 +7,12 @@ seed_value = 56#for reproducibilty
 np.random.seed(seed_value)# Set `numpy` pseudo-random generator at a fixed value
 
 # Load the training data from the corresponding npz files
-train_images = np.load('C:\\Users\\ADMIN\\Desktop\\Deep Learning Projects\\Handwriting\\kmnist-train-imgs.npz')['arr_0']
-train_labels = np.load('C:\\Users\\ADMIN\\Desktop\\Deep Learning Projects\\Handwriting\\kmnist-train-labels.npz')['arr_0']
+train_images = np.load(kmnist-train-imgs.npz)['arr_0']#PROVIDE OWN FILE PATH 
+train_labels = np.load(kmnist-train-labels.npz)['arr_0']
 
 # Load the test data from the corresponding npz files
-test_images =  np.load('C:\\Users\\ADMIN\\Desktop\\Deep Learning Projects\\Handwriting\\kmnist-test-imgs.npz')['arr_0']
-test_labels =  np.load('C:\\Users\\ADMIN\\Desktop\\Deep Learning Projects\\Handwriting\\kmnist-test-labels.npz')['arr_0']
+test_images =  np.load(kmnist-test-imgs.npz)['arr_0']
+test_labels =  np.load(kmnist-test-labels.npz)['arr_0']
 
 random_indices = np.random.choice(2000, size=2000, replace=False)
 
