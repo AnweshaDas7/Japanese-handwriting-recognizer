@@ -9,4 +9,5 @@ The sequential model with a GlobalAveragePooling2D,Dropout and Dense layer is th
 The model with the lowest validation loss is stored by Checkpointer in model.best.hdf5. 
 
 Due to computational limitations, the model is trained on 2000 images and tested on 400.
-After 20 epochs, accuracy on test images is 71.74%, with best validation loss of 0.53.
+After 20 epochs, accuracy on test images is 71.74%, with best validation loss of 0.53,validation accuracy 84.25% and ttrain accuracy
+93.88%.
